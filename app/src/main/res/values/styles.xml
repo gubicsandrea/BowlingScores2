@@ -1,0 +1,85 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="layout_portrait">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="layout_land">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="scoreLayout_portrait">
+        <item name="android:layout_width">@dimen/scoreboxturn</item>
+        <item name="android:layout_height">@dimen/scoreboxturn</item>
+        <item name="android:background">@drawable/customborder</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+    <style name="scoreLayout_land">
+        <item name="android:layout_width">@dimen/scoreboxturn</item>
+        <item name="android:layout_height">@dimen/scoreboxturn</item>
+        <item name="android:background">@drawable/customborder</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+
+    <style name="scoreRight">
+        <item name="android:layout_width">@dimen/scorebox</item>
+        <item name="android:layout_height">@dimen/scorebox</item>
+        <item name="android:padding">@dimen/scoreboxPadding</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:textSize">@dimen/scoreTextSize</item>
+        <item name="android:text"></item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:background">@drawable/customborder</item>
+    </style>
+
+    <style name="scoreLeft">
+        <item name="android:layout_width">@dimen/scorebox</item>
+        <item name="android:layout_height">@dimen/scorebox</item>
+        <item name="android:padding">@dimen/scoreboxPadding</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:textSize">@dimen/scoreTextSize</item>
+        <item name="android:text"></item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:background">@drawable/customborder</item>
+    </style>
+
+    <style name="fullScoreText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textSize">@dimen/turnTextSize</item>
+        <item name="android:text"></item>
+    </style>
+
+    <style name="scoreLeft_borderless" parent="scoreLeft">
+        <item name="android:background">@color/transparent</item>
+    </style>
+
+    <style name="scoreRight_borderless" parent="scoreRight">
+        <item name="android:background">@color/transparent</item>
+    </style>
+
+    <style name="scoreLayout_portrait_borderless" parent="scoreLayout_portrait">
+        <item name="android:background">@color/transparent</item>
+    </style>
+
+    <style name="scoreLayout_land_borderless" parent="scoreLayout_land">
+        <item name="android:background">@color/transparent</item>
+    </style>
+
+</resources>

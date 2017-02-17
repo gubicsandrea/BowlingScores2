@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bowling_m"
+    tools:context="com.example.android.bowlingscores.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/activity_main"
+        style="@style/layout_portrait">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/player1Color"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="@dimen/player_margin"
+                android:text="@string/player1Name"
+                android:textSize="@dimen/turnTextSize" />
+
+            <RelativeLayout style="@style/scoreLayout_portrait">
+
+                <TextView
+                    android:id="@+id/round1_score2"
+                    style="@style/scoreRight" />
+
+                <TextView
+                    android:id="@+id/round1_score1"
+                    style="@style/scoreLeft"
+                    android:layout_toLeftOf="@id/round1_score2" />
+
+                <TextView
+                    android:id="@+id/round1"
+                    style="@style/fullScoreText" />
+
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/scoreLayout_portrait">
+
+                <TextView
+                    android:id="@+id/round2_score2"
+                    style="@style/scoreRight" />
+
+                <TextView
+                    android:id="@+id/round2_score1"
+                    style="@style/scoreLeft"
+                    android:layout_toLeftOf="@id/round2_score2" />
+
+                <TextView
+                    android:id="@+id/round2"
+                    style="@style/fullScoreText" />
+
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/scoreLayout_portrait">
+
+                <TextView
+                    android:id="@+id/round3_score2"
+                    style="@style/scoreRight" />
+
+                <TextView
+                    android:id="@+id/round3_score1"
+                    style="@style/scoreLeft"
+                    android:layout_toLeftOf="@id/round3_score2" />
+
+                <TextView
+                    android:id="@+id/round3"
+                    style="@style/fullScoreText" />
+
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/scoreLayout_portrait">
+
+                <TextView
+                    android:id="@+id/round4_score2"
+                    style="@style/scoreRight" />
+
+                <TextView
+                    android:id="@+id/round4_score1"
+                    style="@style/scoreLeft"
+                    android:layout_toLeftOf="@id/round4_score2" />
+
+                <TextView
+                    android:id="@+id/round4"
+                    style="@style/fullScoreText" />
+
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/scoreLayout_portrait">
+
+                <TextView
+                    android:id="@+id/round5_score2"
+                    style="@style/scoreRight" />
+
+                <TextView
+                    android:id="@+id/round5_score1"
+                    style="@style/scoreLeft"
+                    android:layout_toLeftOf="@id/round5_score2" />
+
+                <TextView
+                    android:id="@+id/round5"
+                    style="@style/fullScoreText" />
+
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/scoreLayout_portrait">
+
+                <TextView
+                    android:id="@+id/round6_score2"
+                    style="@style/scoreRight" />
+
+                <TextView
+                    android:id="@+id/round6_score1"
+                    style="@style/scoreLeft"
+                    android:layout_toLeftOf="@id/round6_score2" />
+
+                <TextView
+                    android:id="@+id/round6"
+                    style="@style/fullScoreText" />
+
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/scoreLayout_portrait">
+
+                <TextView
+                    android:id="@+id/round7_score2"
+                    style="@style/scoreRight" />
+
+                <TextView
+                    android:id="@+id/round7_score1"
+                    style="@style/scoreLeft"
+                    android:layout_toLeftOf="@id/round7_score2" />
+
+                <TextView
+                    android:id="@+id/round7"
+                    style="@style/fullScoreText" />
+
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/scoreLayout_portrait">
+
+                <TextView
+                    android:id="@+id/round8_score2"
+                    style="@style/scoreRight" />
+
+                <TextView
+                    android:id="@+id/round8_score1"
+                    style="@style/scoreLeft"
+                    android:layout_toLeftOf="@id/round8_score2" />
+
+                <TextView
+                    android:id="@+id/round8"
+                    style="@style/fullScoreText" />
+
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/scoreLayout_portrait">
+
+                <TextView
+                    android:id="@+id/round9_score2"
+                    style="@style/scoreRight" />
+
+                <TextView
+                    android:id="@+id/round9_score1"
+                    style="@style/scoreLeft"
+                    android:layout_toLeftOf="@id/round9_score2" />
+
+                <TextView
+                    android:id="@+id/round9"
+                    style="@style/fullScoreText" />
+
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/scoreLayout_portrait">
+
+                <TextView
+                    android:id="@+id/round10_score2"
+                    style="@style/scoreRight" />
+
+                <TextView
+                    android:id="@+id/round10_score1"
+                    style="@style/scoreLeft"
+                    android:layout_toLeftOf="@id/round10_score2" />
+
+                <TextView
+                    android:id="@+id/round10"
+                    style="@style/fullScoreText" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/round11_bigbox"
+                style="@style/scoreLayout_portrait_borderless">
+
+                <TextView
+                    android:id="@+id/round11_score2"
+                    style="@style/scoreRight_borderless" />
+
+                <TextView
+                    android:id="@+id/round11_score1"
+                    style="@style/scoreLeft_borderless"
+                    android:layout_toLeftOf="@id/round11_score2" />
+
+                <TextView
+                    android:id="@+id/round11"
+                    style="@style/fullScoreText" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/round12_bigbox"
+                style="@style/scoreLayout_portrait_borderless">
+
+                <TextView
+                    android:id="@+id/round12_score2"
+                    style="@style/scoreRight_borderless" />
+
+                <TextView
+                    android:id="@+id/round12_score1"
+                    style="@style/scoreLeft_borderless"
+                    android:layout_toLeftOf="@id/round12_score2" />
+
+                <TextView
+                    android:id="@+id/round12"
+                    style="@style/fullScoreText" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/minus_button"
+                    android:layout_width="@dimen/buttonSize"
+                    android:layout_height="@dimen/buttonSize"
+                    android:layout_margin="@dimen/player_margin"
+                    android:background="@color/player1Color"
+                    android:onClick="decreaseScore"
+                    android:text="@string/button_minus" />
+
+                <TextView
+                    android:id="@+id/points"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textColor="@android:color/white"
+                    android:text="@string/points"
+                    android:textSize="@dimen/turnTextSize" />
+
+                <Button
+                    android:id="@+id/plus_button"
+                    android:layout_width="@dimen/buttonSize"
+                    android:layout_height="@dimen/buttonSize"
+                    android:layout_margin="@dimen/player_margin"
+                    android:background="@color/player1Color"
+                    android:onClick="increaseScore"
+                    android:text="@string/button_plus" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/enter_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/activity_vertical_margin"
+                android:background="@color/player1Color"
+                android:onClick="setScore"
+                android:text="@string/button_enter" />
+
+            <Button
+                android:id="@+id/strike_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/activity_vertical_margin"
+                android:background="@color/player1Color"
+                android:onClick="strikeScore"
+                android:text="@string/button_strike" />
+
+            <Button
+                android:id="@+id/foul_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/activity_vertical_margin"
+                android:background="@color/player1Color"
+                android:onClick="foulScore"
+                android:text="@string/button_foul" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/activity_vertical_margin"
+                android:onClick="newGame"
+                android:text="@string/button_newGame" />
+
+            <TextView
+                android:id="@+id/winnerText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@android:color/white"
+                android:text=""
+                android:textSize="@dimen/turnTextSize" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/player2Color"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="@dimen/player_margin"
+                android:text="@string/player2Name"
+                android:textSize="@dimen/turnTextSize" />
+
+            <RelativeLayout style="@style/scoreLayout_portrait">
+
+                <TextView
+                    android:id="@+id/round1_score2_2"
+                    style="@style/scoreRight" />
+
+                <TextView
+                    android:id="@+id/round1_score1_2"
+                    style="@style/scoreLeft"
+                    android:layout_toLeftOf="@id/round1_score2_2" />
+
+                <TextView
+                    android:id="@+id/round1_2"
+                    style="@style/fullScoreText" />
+
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/scoreLayout_portrait">
+
+                <TextView
+                    android:id="@+id/round2_score2_2"
+                    style="@style/scoreRight" />
+
+                <TextView
+                    android:id="@+id/round2_score1_2"
+                    style="@style/scoreLeft"
+                    android:layout_toLeftOf="@id/round2_score2_2" />
+
+                <TextView
+                    android:id="@+id/round2_2"
+                    style="@style/fullScoreText" />
+
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/scoreLayout_portrait">
+
+                <TextView
+                    android:id="@+id/round3_score2_2"
+                    style="@style/scoreRight" />
+
+                <TextView
+                    android:id="@+id/round3_score1_2"
+                    style="@style/scoreLeft"
+                    android:layout_toLeftOf="@id/round3_score2_2" />
+
+                <TextView
+                    android:id="@+id/round3_2"
+                    style="@style/fullScoreText" />
+
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/scoreLayout_portrait">
+
+                <TextView
+                    android:id="@+id/round4_score2_2"
+                    style="@style/scoreRight" />
+
+                <TextView
+                    android:id="@+id/round4_score1_2"
+                    style="@style/scoreLeft"
+                    android:layout_toLeftOf="@id/round4_score2_2" />
+
+                <TextView
+                    android:id="@+id/round4_2"
+                    style="@style/fullScoreText" />
+
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/scoreLayout_portrait">
+
+                <TextView
+                    android:id="@+id/round5_score2_2"
+                    style="@style/scoreRight" />
+
+                <TextView
+                    android:id="@+id/round5_score1_2"
+                    style="@style/scoreLeft"
+                    android:layout_toLeftOf="@id/round5_score2_2" />
+
+                <TextView
+                    android:id="@+id/round5_2"
+                    style="@style/fullScoreText" />
+
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/scoreLayout_portrait">
+
+                <TextView
+                    android:id="@+id/round6_score2_2"
+                    style="@style/scoreRight" />
+
+                <TextView
+                    android:id="@+id/round6_score1_2"
+                    style="@style/scoreLeft"
+                    android:layout_toLeftOf="@id/round6_score2_2" />
+
+                <TextView
+                    android:id="@+id/round6_2"
+                    style="@style/fullScoreText" />
+
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/scoreLayout_portrait">
+
+                <TextView
+                    android:id="@+id/round7_score2_2"
+                    style="@style/scoreRight" />
+
+                <TextView
+                    android:id="@+id/round7_score1_2"
+                    style="@style/scoreLeft"
+                    android:layout_toLeftOf="@id/round7_score2_2" />
+
+                <TextView
+                    android:id="@+id/round7_2"
+                    style="@style/fullScoreText" />
+
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/scoreLayout_portrait">
+
+                <TextView
+                    android:id="@+id/round8_score2_2"
+                    style="@style/scoreRight" />
+
+                <TextView
+                    android:id="@+id/round8_score1_2"
+                    style="@style/scoreLeft"
+                    android:layout_toLeftOf="@id/round8_score2_2" />
+
+                <TextView
+                    android:id="@+id/round8_2"
+                    style="@style/fullScoreText" />
+
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/scoreLayout_portrait">
+
+                <TextView
+                    android:id="@+id/round9_score2_2"
+                    style="@style/scoreRight" />
+
+                <TextView
+                    android:id="@+id/round9_score1_2"
+                    style="@style/scoreLeft"
+                    android:layout_toLeftOf="@id/round9_score2_2" />
+
+                <TextView
+                    android:id="@+id/round9_2"
+                    style="@style/fullScoreText" />
+
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/scoreLayout_portrait">
+
+                <TextView
+                    android:id="@+id/round10_score2_2"
+                    style="@style/scoreRight" />
+
+                <TextView
+                    android:id="@+id/round10_score1_2"
+                    style="@style/scoreLeft"
+                    android:layout_toLeftOf="@id/round10_score2_2" />
+
+                <TextView
+                    android:id="@+id/round10_2"
+                    style="@style/fullScoreText" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/round11_bigbox_2"
+                style="@style/scoreLayout_portrait_borderless">
+
+                <TextView
+                    android:id="@+id/round11_score2_2"
+                    style="@style/scoreRight_borderless" />
+
+                <TextView
+                    android:id="@+id/round11_score1_2"
+                    style="@style/scoreLeft_borderless"
+                    android:layout_toLeftOf="@id/round11_score2_2" />
+
+                <TextView
+                    android:id="@+id/round11_2"
+                    style="@style/fullScoreText" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/round12_bigbox_2"
+                style="@style/scoreLayout_portrait_borderless">
+
+                <TextView
+                    android:id="@+id/round12_score2_2"
+                    style="@style/scoreRight_borderless" />
+
+                <TextView
+                    android:id="@+id/round12_score1_2"
+                    style="@style/scoreLeft_borderless"
+                    android:layout_toLeftOf="@id/round12_score2_2" />
+
+                <TextView
+                    android:id="@+id/round12_2"
+                    style="@style/fullScoreText" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

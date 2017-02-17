@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Bowling Scores</string>
+    <string name="player1Name">Player 1</string>
+    <string name="player2Name">Player 2</string>
+    <string name="button_minus">-</string>
+    <string name="button_plus">+</string>
+    <string name="points">0</string>
+    <string name="button_enter">Enter score</string>
+    <string name="button_strike">Strike</string>
+    <string name="button_foul">Foul</string>
+    <string name="button_newGame">New game</string>
+</resources>
