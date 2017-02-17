@@ -4,6 +4,7 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:background="@drawable/bowling_m"
+    android:fillViewport="true"
     tools:context="com.example.android.bowlingscores.MainActivity">
 
     <LinearLayout
