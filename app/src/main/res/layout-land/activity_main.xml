@@ -583,7 +583,6 @@
                 android:text="@string/button_newGame" />
 
 
-
         </LinearLayout>
 
         <LinearLayout
