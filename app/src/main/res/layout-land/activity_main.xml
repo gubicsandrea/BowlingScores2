@@ -11,6 +11,7 @@
         style="@style/layout_land">
 
         <LinearLayout
+            android:id="@+id/player1Container"
             android:layout_width="match_parent"
             android:layout_height="@dimen/zerodp"
             android:layout_weight="1"
@@ -18,6 +19,7 @@
             android:orientation="horizontal">
 
             <TextView
+                android:id="@+id/player1Name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
@@ -25,7 +27,9 @@
                 android:text="@string/player1Name"
                 android:textSize="@dimen/turnTextSize" />
 
-            <RelativeLayout style="@style/scoreLayout_land">
+            <RelativeLayout
+                android:id="@+id/round1BoxForPlayer1"
+                style="@style/scoreLayout_land">
 
                 <TextView
                     android:id="@+id/round1_score2"
@@ -42,7 +46,9 @@
 
             </RelativeLayout>
 
-            <RelativeLayout style="@style/scoreLayout_land">
+            <RelativeLayout
+                android:id="@+id/round2BoxForPlayer1"
+                style="@style/scoreLayout_land">
 
                 <TextView
                     android:id="@+id/round2_score2"
@@ -59,7 +65,9 @@
 
             </RelativeLayout>
 
-            <RelativeLayout style="@style/scoreLayout_land">
+            <RelativeLayout
+                android:id="@+id/round3BoxForPlayer1"
+                style="@style/scoreLayout_land">
 
                 <TextView
                     android:id="@+id/round3_score2"
@@ -76,7 +84,9 @@
 
             </RelativeLayout>
 
-            <RelativeLayout style="@style/scoreLayout_land">
+            <RelativeLayout
+                android:id="@+id/round4BoxForPlayer1"
+                style="@style/scoreLayout_land">
 
                 <TextView
                     android:id="@+id/round4_score2"
@@ -93,7 +103,9 @@
 
             </RelativeLayout>
 
-            <RelativeLayout style="@style/scoreLayout_land">
+            <RelativeLayout
+                android:id="@+id/round5BoxForPlayer1"
+                style="@style/scoreLayout_land">
 
                 <TextView
                     android:id="@+id/round5_score2"
@@ -110,7 +122,9 @@
 
             </RelativeLayout>
 
-            <RelativeLayout style="@style/scoreLayout_land">
+            <RelativeLayout
+                android:id="@+id/round6BoxForPlayer1"
+                style="@style/scoreLayout_land">
 
                 <TextView
                     android:id="@+id/round6_score2"
@@ -127,7 +141,9 @@
 
             </RelativeLayout>
 
-            <RelativeLayout style="@style/scoreLayout_land">
+            <RelativeLayout
+                android:id="@+id/round7BoxForPlayer1"
+                style="@style/scoreLayout_land">
 
                 <TextView
                     android:id="@+id/round7_score2"
@@ -144,7 +160,9 @@
 
             </RelativeLayout>
 
-            <RelativeLayout style="@style/scoreLayout_land">
+            <RelativeLayout
+                android:id="@+id/round8BoxForPlayer1"
+                style="@style/scoreLayout_land">
 
                 <TextView
                     android:id="@+id/round8_score2"
@@ -161,7 +179,9 @@
 
             </RelativeLayout>
 
-            <RelativeLayout style="@style/scoreLayout_land">
+            <RelativeLayout
+                android:id="@+id/round9BoxForPlayer1"
+                style="@style/scoreLayout_land">
 
                 <TextView
                     android:id="@+id/round9_score2"
@@ -178,7 +198,9 @@
 
             </RelativeLayout>
 
-            <RelativeLayout style="@style/scoreLayout_land">
+            <RelativeLayout
+                android:id="@+id/round10BoxForPlayer1"
+                style="@style/scoreLayout_land">
 
                 <TextView
                     android:id="@+id/round10_score2"
@@ -236,6 +258,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/player2Container"
             android:layout_width="match_parent"
             android:layout_height="@dimen/zerodp"
             android:layout_weight="1"
@@ -243,6 +266,7 @@
             android:orientation="horizontal">
 
             <TextView
+                android:id="@+id/player2Name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
@@ -250,7 +274,9 @@
                 android:text="@string/player2Name"
                 android:textSize="@dimen/turnTextSize" />
 
-            <RelativeLayout style="@style/scoreLayout_land">
+            <RelativeLayout
+                android:id="@+id/round1BoxForPlayer2"
+                style="@style/scoreLayout_land">
 
                 <TextView
                     android:id="@+id/round1_score2_2"
@@ -267,7 +293,9 @@
 
             </RelativeLayout>
 
-            <RelativeLayout style="@style/scoreLayout_land">
+            <RelativeLayout
+                android:id="@+id/round2BoxForPlayer2"
+                style="@style/scoreLayout_land">
 
                 <TextView
                     android:id="@+id/round2_score2_2"
@@ -284,7 +312,9 @@
 
             </RelativeLayout>
 
-            <RelativeLayout style="@style/scoreLayout_land">
+            <RelativeLayout
+                android:id="@+id/round3BoxForPlayer2"
+                style="@style/scoreLayout_land">
 
                 <TextView
                     android:id="@+id/round3_score2_2"
@@ -301,7 +331,9 @@
 
             </RelativeLayout>
 
-            <RelativeLayout style="@style/scoreLayout_land">
+            <RelativeLayout
+                android:id="@+id/round4BoxForPlayer2"
+                style="@style/scoreLayout_land">
 
                 <TextView
                     android:id="@+id/round4_score2_2"
@@ -318,7 +350,9 @@
 
             </RelativeLayout>
 
-            <RelativeLayout style="@style/scoreLayout_land">
+            <RelativeLayout
+                android:id="@+id/round5BoxForPlayer2"
+                style="@style/scoreLayout_land">
 
                 <TextView
                     android:id="@+id/round5_score2_2"
@@ -335,7 +369,9 @@
 
             </RelativeLayout>
 
-            <RelativeLayout style="@style/scoreLayout_land">
+            <RelativeLayout
+                android:id="@+id/round6BoxForPlayer2"
+                style="@style/scoreLayout_land">
 
                 <TextView
                     android:id="@+id/round6_score2_2"
@@ -352,7 +388,9 @@
 
             </RelativeLayout>
 
-            <RelativeLayout style="@style/scoreLayout_land">
+            <RelativeLayout
+                android:id="@+id/round7BoxForPlayer2"
+                style="@style/scoreLayout_land">
 
                 <TextView
                     android:id="@+id/round7_score2_2"
@@ -369,7 +407,9 @@
 
             </RelativeLayout>
 
-            <RelativeLayout style="@style/scoreLayout_land">
+            <RelativeLayout
+                android:id="@+id/round8BoxForPlayer2"
+                style="@style/scoreLayout_land">
 
                 <TextView
                     android:id="@+id/round8_score2_2"
@@ -386,7 +426,9 @@
 
             </RelativeLayout>
 
-            <RelativeLayout style="@style/scoreLayout_land">
+            <RelativeLayout
+                android:id="@+id/round9BoxForPlayer2"
+                style="@style/scoreLayout_land">
 
                 <TextView
                     android:id="@+id/round9_score2_2"
@@ -403,7 +445,9 @@
 
             </RelativeLayout>
 
-            <RelativeLayout style="@style/scoreLayout_land">
+            <RelativeLayout
+                android:id="@+id/round10BoxForPlayer2"
+                style="@style/scoreLayout_land">
 
                 <TextView
                     android:id="@+id/round10_score2_2"
@@ -461,12 +505,14 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/buttonContainer"
             android:layout_width="match_parent"
             android:layout_height="@dimen/zerodp"
             android:layout_weight="1"
             android:orientation="horizontal">
 
             <LinearLayout
+                android:id="@+id/setScoreContainer"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
@@ -487,8 +533,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:textColor="@android:color/white"
                     android:text="@string/points"
+                    android:textColor="@android:color/white"
                     android:textSize="@dimen/turnTextSize" />
 
                 <Button
@@ -541,6 +587,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/winnerTextContainer"
             android:layout_width="match_parent"
             android:layout_height="@dimen/zerodp"
             android:layout_weight="1"
@@ -551,8 +598,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:textColor="@android:color/white"
                 android:text=""
+                android:textColor="@android:color/white"
                 android:textSize="@dimen/turnTextSize" />
 
         </LinearLayout>
